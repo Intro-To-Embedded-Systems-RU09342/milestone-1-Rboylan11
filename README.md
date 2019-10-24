@@ -1,3 +1,17 @@
+# README
+The objective of Milestone 1 is to build addressable LEDs that can communicate via UART with multiple other microcontrollers each connected to their own LED. A signal will be generated and sent to the first LED, then the next, and so on. The microcontroller takes 3 bytes of information and sends the rest on to the next microcontroller. Those 3 bytes of information tell the microprocessor the pwm value of red green and blue to create the desired color.
+
+
+
+
+
+
+
+
+
+
+
+
 # Milestone 1: Stranger Things Light Wall
 For the first milestone, you will be building "Addressable" RGB LEDs which can be connected in series with one another and can have patterns generated from them. You will need to use one of your two development boards to generate an RGB node. By the week of _**OCTOBER 17**_, you will be expected to come into lab with a fully operational RGB node ready to be connected together. Your node will be tested individually during that lab period, with your documentation (code and readme) being graded throughout the week.
 

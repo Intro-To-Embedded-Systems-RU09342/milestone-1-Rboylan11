@@ -1,2 +1,2 @@
 # Milestone 1: Communicating with Will Byers
-Updated
+The objective of Milestone 1 is to build addressable LEDs that can communicate via UART with multiple other microcontrollers each connected to their own LED. A signal will be generated and sent to the first LED, then the next, and so on. The microcontroller takes 3 bytes of information and sends the rest on to the next microcontroller. Those 3 bytes of information tell the microprocessor the pwm value of red green and blue to create the desired color.
